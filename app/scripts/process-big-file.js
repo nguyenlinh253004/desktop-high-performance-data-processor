@@ -5,7 +5,7 @@ const { Worker } = require('worker_threads');
 const filePath = path.join(__dirname, 'big.csv');
 const fileSize = fs.statSync(filePath).size;
 
-const worker = new Worker('./csv-worker.js');
+const worker = new Worker(path.join(__dirname, 'csv-worker.js'));
 
 let processedBytes = 0;
 let totalLines = 0;
