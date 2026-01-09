@@ -1,6 +1,9 @@
 {
   "dependencies": {
     "bullmq": "^5.66.4",
-    "ioredis": "^5.9.0"
+    "ioredis": "^5.9.0",
+    "reflect-metadata": "^0.2.2",
+    "sqlite3": "^5.1.7",
+    "typeorm": "^0.3.28"
   }
 }
